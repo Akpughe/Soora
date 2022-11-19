@@ -7,7 +7,6 @@ import {
   Pressable,
 } from 'react-native';
 import styles from './style';
-import Header from '../../components/Header';
 import {
   Inter_100Thin,
   Inter_200ExtraLight,
@@ -21,6 +20,9 @@ import {
 } from '@expo-google-fonts/inter';
 import { useFonts } from 'expo-font';
 import AppLoading from 'expo-app-loading';
+
+// components
+import Header from '../../components/Header';
 import Input from '../../components/Input';
 import Footer from '../../components/Footer';
 
